@@ -15,6 +15,10 @@
             background: linear-gradient(91.71deg, rgba(255, 255, 255, 0.4) 6.82%, rgba(255, 255, 255, 0.0291344) 97.36%, rgba(255, 255, 255, 0) 104.47%);
             padding: 15px 0px 15px 25px;
 
+            border: 2px solid;
+            border-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3)) 10%;
+            border-radius: 5px;
+
             .icon{
                 width: 10%;
             }

@@ -12,6 +12,11 @@
   main .gradient-item {
     background: linear-gradient(91.71deg, rgba(255, 255, 255, 0.4) 6.82%, rgba(255, 255, 255, 0.0291344) 97.36%, rgba(255, 255, 255, 0) 104.47%);
     padding: 15px 0px 15px 25px;
+    border: 2px solid;
+    -o-border-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3)) 10%;
+       border-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.3))) 10%;
+       border-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3)) 10%;
+    border-radius: 5px;
   }
   main .gradient-item .icon {
     width: 10%;
