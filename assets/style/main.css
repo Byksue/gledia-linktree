@@ -7,7 +7,10 @@
     background: -webkit-gradient(linear, left top, left bottom, from(#5597e9), color-stop(#98bff1), to(rgba(255, 255, 255, 0)));
     background: linear-gradient(180deg, #5597e9, #98bff1, rgba(255, 255, 255, 0));
     background-size: 100% 100%;
-    height: auto;
+  }
+  main .img-logo {
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
   main .gradient-item {
     background: linear-gradient(91.71deg, rgba(255, 255, 255, 0.4) 6.82%, rgba(255, 255, 255, 0.0291344) 97.36%, rgba(255, 255, 255, 0) 104.47%);
@@ -22,9 +25,12 @@
     width: 10%;
   }
   main #klinik {
-    background-image: url("../images/klinik_1.jpg");
+    margin-top: 100px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(152, 191, 241, 0.5)), to(rgba(255, 255, 255, 0.5))), url("../images/klinik_1.jpg");
+    background-image: linear-gradient(rgba(152, 191, 241, 0.5), rgba(255, 255, 255, 0.5)), url("../images/klinik_1.jpg");
     width: 100%;
     height: 60vh;
+    bottom: 0px;
     -o-object-fit: cover;
        object-fit: cover;
     background-size: cover;
