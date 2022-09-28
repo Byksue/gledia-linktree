@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 766px) {
   body {
     font-family: 'Inter', sans-serif;
     color: white;
@@ -34,6 +34,42 @@
        object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  body {
+    font-family: 'Inter', sans-serif;
+    color: white;
+  }
+  main {
+    background-color: #81A6D6;
+    background-size: 100% 100%;
+  }
+  main .img-logo {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  main .gradient-item {
+    background: linear-gradient(91.71deg, rgba(255, 255, 255, 0.4) 6.82%, rgba(255, 255, 255, 0.0291344) 97.36%, rgba(255, 255, 255, 0) 104.47%);
+    padding: 15px 0px 15px 25px;
+    border: 2px solid;
+    -o-border-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3)) 10%;
+       border-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.3))) 10%;
+       border-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3)) 10%;
+    border-radius: 5px;
+  }
+  main .gradient-item .icon {
+    width: 10%;
+  }
+  main #klinik {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#81a6d6), color-stop(rgba(152, 191, 241, 0.8)), to(rgba(255, 255, 255, 0))), url("../images/sas.jpg");
+    background-image: linear-gradient(#81a6d6, rgba(152, 191, 241, 0.8), rgba(255, 255, 255, 0)), url("../images/sas.jpg");
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
   }
 }
 /*# sourceMappingURL=main.css.map */
