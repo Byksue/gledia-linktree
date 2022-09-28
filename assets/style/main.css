@@ -24,7 +24,7 @@
     width: 10%;
   }
   main #klinik {
-    margin-top: 490px;
+    margin-top: 10px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#81a6d6), color-stop(rgba(152, 191, 241, 0.8)), to(rgba(255, 255, 255, 0))), url("../images/klinik_1.jpg");
     background-image: linear-gradient(#81a6d6, rgba(152, 191, 241, 0.8), rgba(255, 255, 255, 0)), url("../images/klinik_1.jpg");
     width: 100%;
@@ -65,7 +65,6 @@
   main #klinik {
     background-image: -webkit-gradient(linear, left top, left bottom, from(#81a6d6), color-stop(rgba(152, 191, 241, 0.8)), to(rgba(255, 255, 255, 0))), url("../images/sas.jpg");
     background-image: linear-gradient(#81a6d6, rgba(152, 191, 241, 0.8), rgba(255, 255, 255, 0)), url("../images/sas.jpg");
-    position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
